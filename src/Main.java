@@ -27,6 +27,7 @@ public class Main {
             System.out.println(e.getMessage());
             return false;
         }
+
         return checkLogin && checkPassword && checkLength && checkLoginLength && checkPassMatch;
 
     }

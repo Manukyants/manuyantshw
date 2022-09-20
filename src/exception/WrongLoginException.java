@@ -5,4 +5,5 @@ public class WrongLoginException extends RuntimeException {
         super(massage);
     }
 
+
 }
